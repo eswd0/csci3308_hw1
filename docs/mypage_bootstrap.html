@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+    <html>
+      <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <title>About Me</title>
+      </head>
+      <body>
+        <div class="container">
+          <h1>Li, Jiayao</h1>
+          <div class="card">
+            <div class="card-body">I grew up in Shanghai, China. I am a junior student in CU Boulder. Boulder just snowed yesterday. I study Computer Science because I like the feeling when writing codes at 1am.</div>
+          </div>
+        <h2>My Professional Profile</h2>
+        <button onclick="window.location.href = 'https://github.com/eswd0';">Jiayao's github</button>
+        <br>
+        <style>
+        img {
+          border-radius: 50%;
+        }
+        </style>
+        <img id="photo" src="https://i.ibb.co/ryXnKGS/v2-e12be6a0f6a51d2050eadab626959e68-hd.jpg" alt="v2-e12be6a0f6a51d2050eadab626959e68-hd" border="0" height=300>
+        <h3>My Favorite Projects</h3>
+
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name of the Project</th>
+              <th scope="col">Techonologies</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Text Based Oregon Trail</td>
+              <td>C++ and Python</td>
+
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Photo Editor</td>
+              <td>javascript</td>
+
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>mypage</td>
+              <td>html</td>
+            </tr>
+          </tbody>
+        </table>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#contries">Contries Travelled</button>
+        <div id="contries" class="collapse">
+          <ul style="list-style-type:;">
+            <li>Thailand</li>
+            <li>Canada</li>
+            <li>Cambodia</li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#interest">My Interests</button>
+        <div id="interest" class="collapse">
+          <ol>
+            <li>Driving</li>
+            <li>Soccer</li>
+            <li>Basketball</li>
+          </ol>
+        </div>
+        <br><br>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Click me!</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">That's all folks!</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <p>(((ﾟДﾟ;)))</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
